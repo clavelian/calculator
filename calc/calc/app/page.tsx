@@ -14,33 +14,43 @@ export default function Home() {
         <div className="calculatorHolder p-5 border-foreground"></div>
         <div className="screen p-10 ">
           <div className="numpad">
-            <div>%</div>
-            <div>CE</div>
-            <div>C</div>
-            <div>Del</div>
+            <div className="etc">
+              <Button>%</Button>
+              <Button>CE</Button>
+              <Button>C</Button>
+              <Button>Del</Button>
+            </div>
             {/* 789 */}
-            <div>7</div>
-            <div>8</div>
-            <div>9</div>
+            <div className="top">
+              <Button>7</Button>
+              <Button>8</Button>
+              <Button>9</Button>
+            </div>
             {/* 456 */}
-            <div>4</div>
-            <div>5</div>
-            <div>6</div>
+            <div className="mid">
+              <Button>4</Button>
+              <Button>5</Button>
+              <Button>6</Button>
+            </div>
             {/* 123 */}
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
+            <div className="low">
+              <Button>1</Button>
+              <Button>2</Button>
+              <Button>3</Button>
+            </div>
             {/* -0. */}
-            <div>-</div>
-            <div>0</div>
-            <div>.</div>
+            <div className="lower">
+              <Button>-</Button>
+              <Button>0</Button>
+              <Button>.</Button>
+            </div>
           </div>
           <div className="operator">
-            <div>/</div>
-            <div>x</div>
-            <div>-</div>
-            <div>+</div>
-            <div>=</div>
+            <Button>/</Button>
+            <Button>x</Button>
+            <Button>-</Button>
+            <Button>+</Button>
+            <Button>=</Button>
           </div>
         </div>
       </main>
