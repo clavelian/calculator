@@ -47,14 +47,16 @@ export default function Home() {
             <Button className="text-xl mr-0.5 mt-0.5">.</Button>
           </div>
         </div>
-        <div className="operator flex-col-reverse">
+      </main>
+      <div className="flex-col">
+        <div className="operator flex-col">
           <Button className="mr-0.5 mt-0.5">/</Button>
           <Button className="mr-0.5 mt-0.5">x</Button>
           <Button className="mr-0.5 mt-0.5">-</Button>
           <Button className="mr-0.5 mt-0.5">+</Button>
           <Button className="mr-0.5 mt-0.5">=</Button>
         </div>
-      </main>
+      </div>
     </>
   );
 }
