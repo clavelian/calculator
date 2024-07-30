@@ -18,43 +18,43 @@ export default function Home() {
         <div className="calculatorHolder p-5 border border-white "></div>
         <div className="numpad">
           <div className="etc">
-            <Button className="mr-0.5">%</Button>
-            <Button className="mr-0.5">C</Button>
-            <Button className="mr-0.5">Del</Button>
+            <Button className="button ">%</Button>
+            <Button className="button ">C</Button>
+            <Button className="button ">Del</Button>
           </div>
           {/* 789 */}
-          <div className="top">
-            <Button className="text-xl mr-0.5 mt-0.5">7</Button>
-            <Button className="text-xl mr-0.5 mt-0.5">8</Button>
-            <Button className="text-xl mr-0.5 mt-0.5">9</Button>
+          <div className="buttonTop">
+            <Button className="button text-xl ">7</Button>
+            <Button className="button text-xl ">8</Button>
+            <Button className="button text-xl ">9</Button>
           </div>
           {/* 456 */}
-          <div className="mid">
-            <Button className="text-xl mr-0.5 mt-0.5">4</Button>
-            <Button className="text-xl mr-0.5 mt-0.5">5</Button>
-            <Button className="text-xl mr-0.5 mt-0.5">6</Button>
+          <div className="buttonMid">
+            <Button className="button text-xl ">4</Button>
+            <Button className="button text-xl ">5</Button>
+            <Button className="button text-xl ">6</Button>
           </div>
           {/* 123 */}
-          <div className="low">
-            <Button className="text-xl mr-0.5 mt-0.5">1</Button>
-            <Button className="text-xl mr-0.5 mt-0.5">2</Button>
-            <Button className="text-xl mr-0.5 mt-0.5">3</Button>
+          <div className="buttonLow">
+            <Button className="button text-xl ">1</Button>
+            <Button className="button text-xl ">2</Button>
+            <Button className="button text-xl ">3</Button>
           </div>
           {/* -0. */}
-          <div className="lower">
-            <Button className="text-xl mr-0.5 mt-0.5">-</Button>
-            <Button className="text-xl mr-0.5 mt-0.5">0</Button>
-            <Button className="text-xl mr-0.5 mt-0.5">.</Button>
+          <div className="buttonLower">
+            <Button className="button text-xl ">-</Button>
+            <Button className="button text-xl ">0</Button>
+            <Button className="button text-xl ">.</Button>
           </div>
         </div>
       </main>
-      <div className="flex-col">
-        <div className="operator flex-col">
-          <Button className="mr-0.5 mt-0.5">/</Button>
-          <Button className="mr-0.5 mt-0.5">x</Button>
-          <Button className="mr-0.5 mt-0.5">-</Button>
-          <Button className="mr-0.5 mt-0.5">+</Button>
-          <Button className="mr-0.5 mt-0.5">=</Button>
+      <div className="button flex-col">
+        <div className="buttonOperator flex-col">
+          <Button className="button text-xl">/</Button>
+          <Button className="button text-xl">x</Button>
+          <Button className="button text-xl">-</Button>
+          <Button className="button text-xl">+</Button>
+          <Button className="button text-xl">=</Button>
         </div>
       </div>
     </>
