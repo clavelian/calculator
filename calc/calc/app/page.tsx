@@ -18,45 +18,41 @@ export default function Home() {
         <div className="calculatorHolder p-5 border border-white "></div>
         <div className="numpad">
           <div className="etc">
-            <Button className="button ">%</Button>
-            <Button className="button ">C</Button>
-            <Button className="button ">Del</Button>
+            <Button className="button text-">%</Button>
+            <Button className="button text-">C</Button>
+            <Button className="button text-">Del</Button>
+            <Button className="button text-">/</Button>
           </div>
           {/* 789 */}
           <div className="buttonTop">
             <Button className="button text-xl ">7</Button>
             <Button className="button text-xl ">8</Button>
             <Button className="button text-xl ">9</Button>
+            <Button className="button text-xl">x</Button>
           </div>
           {/* 456 */}
           <div className="buttonMid">
             <Button className="button text-xl ">4</Button>
             <Button className="button text-xl ">5</Button>
             <Button className="button text-xl ">6</Button>
+            <Button className="button text-xl">-</Button>
           </div>
           {/* 123 */}
           <div className="buttonLow">
             <Button className="button text-xl ">1</Button>
             <Button className="button text-xl ">2</Button>
             <Button className="button text-xl ">3</Button>
+            <Button className="button text-xl">+</Button>
           </div>
           {/* -0. */}
           <div className="buttonLower">
             <Button className="button text-xl ">-</Button>
             <Button className="button text-xl ">0</Button>
             <Button className="button text-xl ">.</Button>
+            <Button className="button text-xl">=</Button>
           </div>
         </div>
       </main>
-      <div className="button flex-col">
-        <div className="buttonOperator flex-col">
-          <Button className="button text-xl">/</Button>
-          <Button className="button text-xl">x</Button>
-          <Button className="button text-xl">-</Button>
-          <Button className="button text-xl">+</Button>
-          <Button className="button text-xl">=</Button>
-        </div>
-      </div>
     </>
   );
 }

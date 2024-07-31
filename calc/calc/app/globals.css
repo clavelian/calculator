@@ -71,4 +71,6 @@
 .button{
   margin-right: 0.125rem;
   margin-top: 0.125rem;
+  height: 4rem;
+  width: 4rem;
 }
