@@ -18,10 +18,10 @@ export default function Home() {
         <div className="calculatorHolder p-5 border border-white "></div>
         <div className="numpad">
           <div className="etc">
-            <Button className="button text-">%</Button>
-            <Button className="button text-">C</Button>
-            <Button className="button text-">Del</Button>
-            <Button className="button text-">/</Button>
+            <Button className="button text-base">%</Button>
+            <Button className="button text-base">C</Button>
+            <Button className="button text-base">Del</Button>
+            <Button className="button text-base">/</Button>
           </div>
           {/* 789 */}
           <div className="buttonTop">
