@@ -1,10 +1,12 @@
 import Image from "next/image";
 import { Button } from "../components/ui/button";
 import { ModeToggle } from "@/components/lnd";
+import { ShootingStarsAndStarsBackgroundDemo } from "../components/stars";
 
 export default function Home() {
   return (
     <>
+      <ShootingStarsAndStarsBackgroundDemo />
       <nav className="flex justify-end place-items-end">
         <div className="pt-7 pr-7">
           <ModeToggle />
