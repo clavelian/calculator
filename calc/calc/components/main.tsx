@@ -18,13 +18,13 @@ const Calc = () => {
   return (
     <>
       <div className="flex justify-center items-center py-10 ">
-        <div className="screen p-10 border-white rounded-sm border flex justify-center place-items-center w-80">
+        <div className="screen p-10 border-white rounded-sm border flex justify-center place-items-center w-80 ">
           <form action="input">{count}</form>
           <b>{count}</b>
         </div>
       </div>
       <main className="flex justify-center place-items-center">
-        <div className="calculatorHolder p-5 border border-white ">
+        <div className="calculatorHolder p-5 border border-white rounded-md">
           <div className="numpad">
             <div className="etc">
               <Button className="button text-base">%</Button>
