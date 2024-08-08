@@ -19,7 +19,7 @@ const Calc = () => {
     <>
       <div className="flex justify-center items-center py-10 ">
         <div className="screen p-10 border-white rounded-sm border flex justify-center place-items-center w-80 ">
-          <form action="input">{count}</form>
+          <form action="">{count}</form>
           <b>{count}</b>
         </div>
       </div>
@@ -36,7 +36,9 @@ const Calc = () => {
             </div>
             {/* 789 */}
             <div className="buttonTop">
-              <Button className="button text-xl ">7</Button>
+              <Button value="7" className="button text-xl">
+                7
+              </Button>
               <Button className="button text-xl ">8</Button>
               <Button className="button text-xl ">9</Button>
               <Button className="button text-xl">x</Button>
