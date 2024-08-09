@@ -18,9 +18,8 @@ const Calc = () => {
   return (
     <>
       <div className="flex justify-center items-center py-10 ">
-        <div className="screen p-10 border-white rounded-sm border flex justify-center place-items-center w-80 ">
+        <div className="screen p-10 border-white rounded-sm border flex justify-center place-items-center w-[19rem] ">
           <form action="">{count}</form>
-          <b>{count}</b>
         </div>
       </div>
       <main className="flex justify-center place-items-center">
@@ -39,9 +38,15 @@ const Calc = () => {
               <Button value="7" className="button text-xl">
                 7
               </Button>
-              <Button className="button text-xl ">8</Button>
-              <Button className="button text-xl ">9</Button>
-              <Button className="button text-xl">x</Button>
+              <Button value={8} className="button text-xl ">
+                8
+              </Button>
+              <Button value={9} className="button text-xl ">
+                9
+              </Button>
+              <Button value={"x"} className="button text-xl">
+                x
+              </Button>
             </div>
             {/* 456 */}
             <div className="buttonMid">
