@@ -6,6 +6,8 @@ const Calc = () => {
   // Problem: the number value is still under construction, provided with sample function
 
   const [count, setCount] = useState(0);
+  const [value, setValue] = useState("");
+
   const handleAdd = () => setCount(count + 1);
   const handleSub = () => setCount(count - 1);
   const handleMulti = () => setCount(count * 2);
@@ -35,9 +37,18 @@ const Calc = () => {
             </div>
             {/* 789 */}
             <div className="buttonTop">
-              <Button value="7" className="button text-xl">
+              <Button
+                value="7"
+                onClick={(e) => setValue(value + e.target.value)}
+                className="button text-xl"
+              >
                 7
               </Button>
+              <input
+                type="button"
+                value="7"
+                onClick={(e) => setValue(value + e.target.value)}
+              />
               <Button value={8} className="button text-xl ">
                 8
               </Button>
