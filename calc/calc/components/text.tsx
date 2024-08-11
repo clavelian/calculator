@@ -10,3 +10,5 @@ const Test = () => {
   };
 };
 export default Test;
+
+//To fix this, you need to explicitly cast the event.target to the correct type, which is usually an HTMLInputElement for input elements.
