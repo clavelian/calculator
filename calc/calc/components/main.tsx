@@ -1,5 +1,4 @@
 "use client";
-import react from "react";
 import { Button } from "../components/ui/button";
 import { useState } from "react";
 const Calc = () => {
@@ -7,6 +6,9 @@ const Calc = () => {
 
   const [count, setCount] = useState(0);
   const [value, setValue] = useState("");
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setInputValue(event.target.value);
+  };
 
   const handleAdd = () => setCount(count + 1);
   const handleSub = () => setCount(count - 1);
