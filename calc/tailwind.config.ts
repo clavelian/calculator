@@ -26,6 +26,9 @@ export default {
       //height
     'zxc': {'raw': '(max-height: 400px)' }
 	},
+	colors: {
+		'windark' : 'hsl(216,8%, 12%)',
+	},
   	extend: {
   		colors: {
   			background: 'hsl(var(--background))',
